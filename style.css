@@ -90,6 +90,11 @@ picture:hover {
           margin-top: 30px;
 }
 
+.TitleDivContentCards h2 {
+          font-size: 42px;
+
+}
+
 .TitleDivContentCards p {
           text-align: center;
           font-size: 24px;
@@ -220,6 +225,7 @@ picture:hover {
 
           .N1SC img {
                     width: 25vw;
+                    height: 25vw;
                     padding: 10px;
           }
 
@@ -237,6 +243,8 @@ picture:hover {
 
           .GCN1 img {
                     width: 25vw;
+                    height: 25vw;
+
                     padding: 10px;
           }
 
@@ -306,7 +314,6 @@ picture:hover {
           text-align: center;
           font-size: 42px;
           transition: 350ms;
-          width: 23ch;
           color: #000000;
           margin: 0 auto;
 }
@@ -389,8 +396,10 @@ picture:hover {
 }
 
 .N1SC img {
+          border-radius: 15px;
           width: 25vw;
-          height: 20vh;
+          padding: 10px;
+          height: 25vw;
 }
 
 /* GameCards */
@@ -441,7 +450,9 @@ picture:hover {
 
 .GCN1 img {
           width: 25vw;
-          height: 20vh;
+          border-radius: 15px;
+          padding: 10px;
+          height: 25vw;
 }
 
 /* Contacto Wrapper*/
