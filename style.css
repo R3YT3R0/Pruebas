@@ -378,6 +378,7 @@
           margin: 20px 0px;
           cursor: default;
           font-size: 18px;
+          font-size: 24px;
           text-align: center;
 }
 
@@ -385,6 +386,7 @@
           color: #2E4F4F;
           transition: all 250ms ease;
           font-size: 18px;
+          font-size: 24px;
           text-decoration: none;
 }
 
@@ -430,6 +432,7 @@ picture:hover {
 .TitleDivContentCards h2 {
           text-align: center;
           font-size: 25px;
+          font-size: 36px;
           transition: 350ms;
           color: #000000;
           margin: 0 auto;
@@ -442,6 +445,7 @@ picture:hover {
 .TitleDivContentCards p {
           text-align: center;
           font-size: 18px;
+          font-size: 24px;
           color: #000000;
           padding: 15px;
           transition: 350ms;
@@ -613,6 +617,176 @@ picture:hover {
 .contentGames2 {
           display: flex;
           margin: 10px auto;
+}
+
+
+@media (max-width:1200px) {
+          .body1 header {
+                    height: auto;
+                    position: fixed;
+                    width: 100%;
+                    padding: 20px;
+                    flex-direction: column;
+          }
+
+          .body1 header>.Logo_Title>img {
+                    width: 20vw;
+                    margin-left: 50%;
+                    transform: translate(-50%);
+          }
+
+
+          .body1>header>.menuLinks>a {
+                    font-size: 20px;
+
+          }
+
+          .body1>header>.menuLinks>button {
+                    font-size: 20px;
+          }
+
+          main {
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                    padding: 20px;
+          }
+
+          .Description_Image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 275px;
+                    flex-direction: column;
+                    position: relative;
+          }
+
+          .Description h2 {
+                    font-size: 3.5rem;
+                    text-align: center;
+          }
+
+          .Description p {
+                    font-size: 2.5rem;
+                    max-width: 600px;
+          }
+
+
+          .Description>p>a {
+                    font-size: 2.5rem;
+          }
+
+          .TitleDivContentCards {
+                    text-align: center;
+                    color: #000000;
+                    margin-top: 250px;
+                    padding: 15px;
+                    margin-top: 400px;
+                    transition: 350ms;
+          }
+
+          .TitleDivContentCards h2 {
+                    font-size: 3.5rem;
+          }
+
+          .TitleDivContentCards p {
+                    font-size: .8rem;
+          }
+
+          .streamers h3 {
+                    text-align: center;
+                    color: #000000;
+                    padding: 15px;
+                    font-size: 1.2rem;
+                    transition: 350ms;
+          }
+
+          .N1SC {
+                    display: flex;
+                    margin: auto;
+                    text-align: center;
+                    margin: 10px;
+                    width: auto;
+                    padding: 15px;
+                    flex-direction: column;
+          }
+
+          .N1SC img {
+                    width: 25vw;
+                    height: 25vw;
+          }
+
+          .N1SC span {
+                    margin: 0px;
+                    font-size: 2rem;
+          }
+
+          .games h3 {
+                    text-align: center;
+                    color: #000000;
+                    padding: 15px;
+                    font-size: 1.2rem;
+                    transition: 350ms;
+
+          }
+
+          .GCN1 {
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    padding: 15px;
+                    margin: auto;
+                    margin: 10px;
+                    width: auto;
+                    flex-direction: column;
+          }
+
+          .GCN1 img {
+                    width: 25vw;
+                    height: 25vw;
+          }
+
+
+          .GCN1 span {
+                    font-size: 2rem;
+                    margin: 0px;
+          }
+
+          .Label {
+                    position: absolute;
+                    margin-top: -30px;
+                    left: 8px;
+                    transform: translateY(-50%);
+                    font-size: 1em;
+                    color: #CBE4DE;
+                    transition: all 100ms ease-out;
+                    pointer-events: none;
+          }
+
+          .input-box input:focus~label {
+                    margin-top: -60px;
+          }
+
+          .input-box input:valid~label {
+                    margin-top: -60px;
+          }
+
+          .contenidoWrapper {
+                    width: 80vw;
+                    height: 80vw;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          .form-box {
+                    align-items: center;
+                    justify-content: center;
+          }
+
+          .Difuminado {
+                    height: 100vh;
+                    width: 100vw;
+          }
 }
 
 
