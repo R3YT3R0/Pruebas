@@ -1,462 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
-
-* {
-          margin: 0;
-          padding: 0;
-          color: black;
-          font-weight: normal;
-}
-
-picture {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          max-width: 320px;
-          max-width: 320px;
-          background: teal;
-          border-radius: 10%;
-          padding: 0;
-          transition: 450ms;
-          margin: 0;
-          z-index: 1;
-}
-
-picture:hover {
-          background: turquoise;
-          box-shadow: 0 0 10px #0E8388;
-          animation: none 1s linear infinite;
-}
-
-.Description_Image>picture>img {
-          max-width: 300px;
-          min-width: 300px;
-          transition: 250ms;
-
-          border-radius: 10%;
-          mix-blend-mode: multiply;
-          filter: grayscale(100%);
-          padding: 0;
-          margin: 0;
-
-}
-
-
-.Description_Image {
-          font-size: 1.2em;
-          border-radius: 5px;
-          color: #2E4F4F;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 10px 20px;
-          margin-top: 125px;
-          width: 95vw;
-          margin: 150px auto;
-          height: 325px;
-}
-
-.Description {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-}
-
-.Description p {
-          transition: all 250ms ease;
-          max-width: 550px;
-          margin: 20px 0px;
-          cursor: default;
-          font-size: 24px;
-          text-align: left;
-}
-
-.Description p>a {
-          color: #2E4F4F;
-          transition: all 250ms ease;
-          font-size: 24px;
-          text-decoration: none;
-}
-
-.Description_Image p:hover {
-          color: #0E8388;
-}
-
-.Description_Image p:hover a {
-          color: #0E8388;
-}
-
-.TitleDivContentCards {
-          margin-top: 30px;
-}
-
-.TitleDivContentCards h2 {
-          font-size: 42px;
-
-}
-
-.TitleDivContentCards p {
-          text-align: center;
-          font-size: 24px;
-          color: #000000;
-          padding: 15px;
-          transition: 350ms;
-}
-
-.TitleDivContentCards p:hover {
-          color: #0E8388;
-          text-shadow: 0 0 10 #000;
-}
-
-.streamerCards>img {
-          border-radius: 10px;
-}
-
-.streamerCards span {
-          color: #ffffff;
-          margin-top: 50px;
-          font-size: 20px;
-}
-
-.streamerCards img {
-          width: 250px;
-}
-
-@media (max-width:1200px) {
-          .body1 header {
-                    height: auto;
-                    position: fixed;
-                    width: 100%;
-                    padding: 20px;
-                    flex-direction: column;
-          }
-
-
-
-          .body1 header>.Logo_Title>img {
-                    width: 20vw;
-                    margin-left: 50%;
-                    transform: translate(-60%);
-          }
-
-          .body1>header>.menuLinks>a {
-                    font-size: 4vw;
-          }
-
-          .body1>header>.menuLinks>button {
-                    font-size: 4vw;
-          }
-
-
-          main {
-                    display: flex;
-                    justify-content: center;
-                    margin: 0 auto;
-                    padding: 20px;
-          }
-
-          .Description_Image {
-                    height: auto;
-                    flex-direction: column;
-                    width: 80vw;
-                    padding: 20px;
-                    margin: 0 auto;
-                    text-align: center;
-                    margin-top: 135px;
-                    border-radius: 15px;
-          }
-
-          .Description_Image>picture {
-                    min-width: 40vw;
-                    max-width: 40vw;
-          }
-
-          .Description_Image>picture>img {
-                    min-width: 40vw;
-                    max-width: 40vw;
-          }
-
-          .Description {
-                    width: 80vw;
-                    flex-direction: column;
-                    display: flex;
-                    margin: 0 auto;
-                    align-items: center;
-                    text-align: center;
-                    justify-content: center;
-          }
-
-          .Description p {
-                    width: 100%;
-                    color: #000000;
-                    margin: 0px;
-                    padding: 0px;
-                    text-align: center;
-                    padding-bottom: 50px;
-          }
-
-          .Description p>a {
-                    color: #000000;
-
-          }
-
-          .TitleDivContentCards p {
-                    text-align: center;
-                    color: #000000;
-                    padding: 15px;
-                    transition: 350ms;
-          }
-
-          .streamers h3 {
-                    text-align: center;
-                    color: #000000;
-                    padding: 15px;
-                    transition: 350ms;
-          }
-
-
-          .N1SC {
-                    display: flex;
-                    margin: auto;
-                    padding: 10px;
-                    width: 350px;
-                    flex-direction: column;
-          }
-
-          .N1SC img {
-                    width: 25vw;
-                    height: 25vw;
-                    padding: 10px;
-          }
-
-          .N1SC span {
-                    margin: 0px;
-          }
-
-          .GCN1 {
-                    display: flex;
-                    margin: auto;
-                    padding: 10px;
-                    width: 350px;
-                    flex-direction: column;
-          }
-
-          .GCN1 img {
-                    width: 25vw;
-                    height: 25vw;
-
-                    padding: 10px;
-          }
-
-          .GCN1 span {
-                    margin: 0px;
-          }
-
-          .Description_Image>picture>img {
-                    width: 80vw;
-          }
-}
-
-*h2 {
-          font-weight: bold;
-}
-
-*h3 {
-          font-weight: bold;
-}
-
-@media (max-width:750px) {
-          .Description_Image {
-                    margin-top: 150px;
-
-          }
-}
-
-/* Titulos/Textos */
-
-
-
-.streamers h3 {
-          width: 19ch;
-          padding: 20px;
-          font-size: 1.8em;
-          color: #000000;
-          text-align: center;
-          margin: 0 auto;
-          transition: all 250ms ease;
-}
-
-.streamers h3:hover {
-          color: #0E8388;
-          text-shadow: 0 0 5px #0E8388;
-}
-
-.games h3 {
-          width: 19ch;
-          padding: 20px;
-          font-size: 1.8em;
-          color: #000000;
-          text-align: center;
-          margin: 0 auto;
-          transition: all 250ms ease;
-}
-
-.games h3:hover {
-          color: #0E8388;
-          text-shadow: 0 0 5px #0E8388;
-}
-
-.TitleDivContentCards {
-          margin-top: 100px;
-}
-
-.TitleDivContentCards h2 {
-          text-align: center;
-          font-size: 42px;
-          transition: 350ms;
-          color: #000000;
-          margin: 0 auto;
-}
-
-.TitleDivContentCards h2:hover {
-          color: #0E8388;
-}
-
-.Description h2 {
-          font-size: 42px;
-          transition: all 250ms ease;
-          color: #000;
-          text-align: left;
-
-          margin: 10px 0px;
-}
-
-.Description h2:hover {
-          color: #468484;
-}
-
-.contenidoWrapper h2 {
-          color: #CBE4DE;
-          font-size: 1.5em;
-          margin: 0px;
-          padding: 15px 15px;
-}
-
-.contenidoWrapper h3 {
-          color: #CBE4DE;
-}
-
-/* llamador de class */
-
-/* Tarjetas */
-
-/* StreamCards */
-
-.streamers {
-          margin: 20px auto;
-          background: conic-gradient(#22222272, #12111172);
-          padding: 15px;
-          background-size: 250%;
-          animation: backgroundMovement 3s ease infinite;
-          display: block;
-          border-radius: 10px;
-}
-
-.streamerCards {
-          display: flex;
-          flex-direction: column;
-          padding: 0px;
-          align-items: center;
-          justify-content: center;
-}
-
-.N1SC {
-          display: inline-block;
-          transition: all 250ms ease;
-          text-align: center;
-          border-radius: 15px;
-          width: auto;
-          height: auto;
-          margin: 15px;
-          width: auto;
-          transition: 250ms ease;
-          text-decoration: none;
-          height: auto;
-          cursor: default;
-          background: #090909;
-}
-
-.N1SC:hover {
-          transform: translateY(-8px);
-}
-
-.N1SC:hover span {
-          text-shadow: 0 0 5px #0E8388;
-          color: #0E8388;
-}
-
-.N1SC img {
-          border-radius: 15px;
-          width: 25vw;
-          padding: 10px;
-          height: 25vw;
-}
-
-/* GameCards */
-
-.games {
-          margin: 20px auto;
-          background: conic-gradient(#22222272, #12111172);
-          padding: 15px;
-          background-size: 250%;
-          animation: backgroundMovement 3s ease infinite;
-          display: block;
-          border-radius: 10px;
-}
-
-.gameCards {
-          display: flex;
-          flex-direction: column;
-          padding: 0px;
-          align-items: center;
-          justify-content: center;
-}
-
-.GCN1 {
-          display: inline-block;
-          transition: all 250ms ease;
-          text-align: center;
-          border-radius: 15px;
-          width: auto;
-          height: auto;
-          margin: 15px;
-          width: auto;
-          transition: 250ms ease;
-          text-decoration: none;
-          height: auto;
-          cursor: default;
-          background: #090909;
-
-}
-
-.GCN1:hover {
-          transform: translateY(-8px);
-}
-
-.GCN1:hover span {
-          text-shadow: 0 0 5px #0E8388;
-          color: #0E8388;
-}
-
-.GCN1 img {
-          width: 25vw;
-          border-radius: 15px;
-          padding: 10px;
-          height: 25vw;
-}
-
-/* Contacto Wrapper*/
-
 .adasd {
           display: none;
           transition: display 250ms ease;
@@ -494,32 +35,38 @@ picture:hover {
           transition: all 250ms ease;
 }
 
-
 .box::before {
           content: "";
-          background: conic-gradient(#2E4F4F 360deg, transparent);
-          height: 200%;
-          width: 30vw;
+          background: conic-gradient(#aadacf 360deg, transparent);
+          height: 250%;
+          width: 25vw;
           position: absolute;
-
           animation: rotate 3s infinite linear;
 }
 
 .contenidoWrapper {
           background: #191919;
           opacity: 1;
-          width: 60vw;
+          width: 50vw;
           color: #191919;
           padding: 5px;
           font-family: monospace;
           border-radius: 10px;
           z-index: 108;
           height: auto;
-          color: #CBE4DE;
-          font-size: 1.3em;
           text-align: center;
 }
 
+.contenidoWrapper h2 {
+          color: #CBE4DE;
+          font-size: 25px;
+
+}
+
+.contenidoWrapper h3 {
+          font-size: 20px;
+          color: #CBE4DE;
+}
 
 .icon-close {
           width: 150px;
@@ -527,8 +74,7 @@ picture:hover {
           display: flex;
           justify-content: center;
           align-items: center;
-          margin: 0 auto;
-          margin-top: 10px;
+          margin: 20px auto;
           border: 0;
           border-radius: 10px;
           color: black;
@@ -541,11 +87,16 @@ picture:hover {
 }
 
 .icon-close:hover {
-          background: #0f0f0f;
+          background: #CBE4DE;
           transform: scale(1.01);
           box-shadow: 0 0 10px black;
-          border: 2px solid rgb(46, 46, 46);
+          border: 2px solid rgb(0, 0, 0);
 }
+
+.icon-close:hover ion-icon {
+          color: #191919;
+}
+
 
 .icon-close>ion-icon {
           font-size: 2em;
@@ -557,12 +108,13 @@ picture:hover {
           width: 60%;
           margin: 25px 0;
           left: 50%;
-          transform: translate(-50%);
+          top: 50%;
+          transform: translate(-50%, -50%);
 }
 
 .Label {
           position: absolute;
-          margin-top: 3%;
+          margin-top: -5%;
           left: 8px;
           transform: translateY(-50%);
           font-size: 1em;
@@ -572,14 +124,11 @@ picture:hover {
 }
 
 .input-box input:focus~label {
-          margin-top: -1%;
-
+          margin-top: -10%;
 }
 
-
 .input-box input:valid~label {
-          margin-top: -1%;
-
+          margin-top: -10%;
 }
 
 .contenidoWrapper .form-box .input-box input {
@@ -588,7 +137,7 @@ picture:hover {
           background: transparent;
           border: none;
           outline: none;
-          border-bottom: 2px solid #2E4F4F;
+          border-bottom: 2px solid #CBE4DE;
           text-align: left;
           font-size: 1em;
           color: #CBE4DE;
@@ -642,7 +191,6 @@ picture:hover {
           transition: 111ms;
           text-decoration: none;
           color: #CBE4DE;
-
           margin: 10px 20px;
 }
 
@@ -657,8 +205,6 @@ picture:hover {
 .socialLinks a>ion-icon {
           color: #CBE4DE;
 }
-
-/* Keyframes */
 
 @keyframes rotate {
           100% {
@@ -678,7 +224,39 @@ picture:hover {
           }
 }
 
-/* Header */
+/* Pagina visible */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+* {
+          margin: 0;
+          padding: 0;
+          color: black;
+          font-family: 'Poppins';
+          font-weight: normal;
+}
+
+
+.body1 {
+          background: linear-gradient(#CBE4DE, #2e4f4f);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+}
+
+.body2 {
+          background: linear-gradient(#2C3333, #2e4f4f);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+}
+
+.body2 header {
+          background: #2C3333;
+}
 
 .body1 header {
           height: 120px;
@@ -689,6 +267,8 @@ picture:hover {
           background-repeat: no-repeat;
           transform: translate(-50%);
           background-size: 100%;
+          position: fixed;
+          top: 0;
           left: 50%;
           position: fixed;
           border-top: #2E4F4F;
@@ -705,8 +285,6 @@ picture:hover {
           align-items: center;
           height: auto;
 }
-
-
 
 .body1 header>.Logo_Title {
           display: flex;
@@ -726,7 +304,6 @@ picture:hover {
           font-size: 20px;
           transition: 250ms;
 }
-
 
 .body1 header>.menuLinks a:hover {
           color: #0E8388;
@@ -760,46 +337,452 @@ picture:hover {
           border-radius: 10px;
 }
 
-.body1 {
-          background: linear-gradient(#CBE4DE, #2e4f4f);
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          background-size: cover;
-}
-
 .body1 main {
           display: flex;
           flex-direction: column;
           justify-content: center;
           margin: 0 auto;
-          padding: 20px;
+          padding: 10px;
+          align-items: center;
 }
 
-.body2 {
-          background: linear-gradient(#2C3333, #2e4f4f);
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          background-size: cover;
+.Description_Image {
+          font-size: 1.2em;
+          border-radius: 5px;
+          color: #2E4F4F;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          padding: 10px 20px;
+          margin-top: 125px;
+          width: 90vw;
+          margin: 180px auto;
+          height: 325px;
 }
 
-.body2 header {
-          background: #2C3333;
+.Description {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
 }
+
+.Description h2 {
+          font-size: 25px;
+}
+
+.Description p {
+          transition: all 250ms ease;
+          max-width: 450px;
+          margin: 20px 0px;
+          cursor: default;
+          font-size: 18px;
+          text-align: center;
+}
+
+.Description p>a {
+          color: #2E4F4F;
+          transition: all 250ms ease;
+          font-size: 18px;
+          text-decoration: none;
+}
+
+.Description_Image p:hover {
+          color: #0E8388;
+}
+
+.Description_Image p:hover a {
+          color: #0E8388;
+}
+
+picture {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          max-width: 350px;
+          max-width: 350px;
+          background: teal;
+          border-radius: 10%;
+          padding: 0;
+          transition: 450ms;
+          margin: 0;
+          z-index: 1;
+}
+
+picture:hover {
+          background: turquoise;
+          box-shadow: 0 0 10px #0E8388;
+          animation: none 1s linear infinite;
+}
+
+.Description_Image>picture>img {
+          max-width: 350px;
+          min-width: 350px;
+          transition: 250ms;
+          border-radius: 10%;
+          mix-blend-mode: multiply;
+          filter: grayscale(100%);
+          padding: 0;
+          margin: 0;
+}
+
+.TitleDivContentCards h2 {
+          text-align: center;
+          font-size: 25px;
+          transition: 350ms;
+          color: #000000;
+          margin: 0 auto;
+}
+
+.TitleDivContentCards h2:hover {
+          color: #0E8388;
+}
+
+.TitleDivContentCards p {
+          text-align: center;
+          font-size: 18px;
+          color: #000000;
+          padding: 15px;
+          transition: 350ms;
+}
+
+.TitleDivContentCards p:hover {
+          color: #0E8388;
+          text-shadow: 0 0 10 #000;
+}
+
+.streamers h3 {
+          font-size: 1.8em;
+          color: #000000;
+          text-align: center;
+          margin: 0 auto;
+          transition: all 250ms ease;
+}
+
+.streamers h3:hover {
+          color: #0E8388;
+          text-shadow: 0 0 5px #0E8388;
+}
+
+
+
+.streamers {
+          margin: 20px auto;
+          background: conic-gradient(#22222272, #12111172);
+          padding: 15px;
+          background-size: 250%;
+          animation: backgroundMovement 3s ease infinite;
+          display: block;
+          border-radius: 10px;
+}
+
+.streamerCards {
+          display: flex;
+          flex-direction: column;
+          padding: 0px;
+          margin: 10px;
+          align-items: center;
+          justify-content: center;
+}
+
+.N1SC {
+          display: inline-block;
+          transition: all 250ms ease;
+          text-align: center;
+          border-radius: 15px;
+          width: auto;
+          padding: 15px;
+          height: auto;
+          transition: 250ms ease;
+          text-decoration: none;
+          cursor: default;
+          background: #090909;
+}
+
+.N1SC:hover {
+          transform: translateY(-8px);
+}
+
+.N1SC:hover span {
+          text-shadow: 0 0 5px #0E8388;
+          color: #0E8388;
+          padding: 10px 0px;
+}
+
+.N1SC img {
+          width: 20vw;
+          border-radius: 15px;
+          height: 20vw;
+}
+
+
+.games {
+          margin: 20px auto;
+          background: conic-gradient(#22222272, #12111172);
+          padding: 15px;
+          background-size: 250%;
+          animation: backgroundMovement 3s ease infinite;
+          display: block;
+          border-radius: 10px;
+}
+
+.games>h3 {
+          font-size: 1.8em;
+          color: #000000;
+          text-align: center;
+          margin: 0 auto;
+          transition: all 250ms ease;
+}
+
+.games h3:hover {
+          color: #0E8388;
+          text-shadow: 0 0 5px #0E8388;
+}
+
+.gameCards {
+          display: flex;
+          flex-direction: column;
+          padding: 0px;
+          margin: 10px;
+          align-items: center;
+          justify-content: center;
+}
+
+.GCN1 {
+          display: inline-block;
+          transition: all 250ms ease;
+          text-align: center;
+          padding: 15px;
+          border-radius: 15px;
+          width: auto;
+          height: auto;
+          transition: 250ms ease;
+          text-decoration: none;
+          cursor: default;
+          background: #090909;
+}
+
+.GCN1:hover {
+          transform: translateY(-8px);
+}
+
+.GCN1 span {
+          text-shadow: 0 0 5px #C9E2DD;
+          color: #CBE4DE;
+          padding: 10px 0px;
+}
+
+.GCN1:hover span {
+          text-shadow: 0 0 5px #0E8388;
+          color: #0E8388;
+          padding: 10px 0px;
+}
+
+.GCN1 img {
+          width: 20vw;
+          border-radius: 15px;
+          height: 20vw;
+}
+
+
+
+.streamerCards span {
+          color: #ffffff;
+          margin-top: 50px;
+          font-size: 20px;
+}
+
+
 
 .contentStreamers1 {
+          margin: 10px auto;
           display: flex;
 }
 
 .contentStreamers2 {
+          margin: 10px auto;
           display: flex;
 }
 
-.contentGames1{
-          display:flex;
+.contentGames1 {
+          display: flex;
+          margin: 10px auto;
 }
 
-.contentGames2{
-          display:flex;
+.contentGames2 {
+          display: flex;
+          margin: 10px auto;
+}
+
+
+@media (max-width:1200px) {
+          .body1 header {
+                    height: auto;
+                    position: fixed;
+                    width: 100%;
+                    padding: 20px;
+                    flex-direction: column;
+          }
+
+          .body1 header>.Logo_Title>img {
+                    width: 20vw;
+                    margin-left: 50%;
+                    transform: translate(-50%);
+          }
+
+
+          .body1>header>.menuLinks>a {
+                    font-size: 30px;
+
+          }
+
+          .body1>header>.menuLinks>button {
+                    font-size: 30px;
+          }
+
+          main {
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                    padding: 20px;
+          }
+
+          .Description_Image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 275px;
+                    flex-direction: column;
+                    position: relative;
+          }
+
+          .Description h2 {
+                    font-size: 30px;
+
+                    text-align: center;
+          }
+
+          .Description p {
+                    font-size: 25px;
+                    max-width: 600px;
+          }
+
+
+          .Description>p>a {
+                    font-size: 25px;
+          }
+
+          .TitleDivContentCards {
+                    text-align: center;
+                    color: #000000;
+                    margin-top: 250px;
+                    padding: 15px;
+                    margin-top: 200px;
+                    transition: 350ms;
+          }
+
+          .TitleDivContentCards h2 {
+                    font-size: 30px;
+          }
+
+          .TitleDivContentCards p {
+                    font-size: 25px;
+
+          }
+
+          .streamers h3 {
+                    text-align: center;
+                    color: #000000;
+                    padding: 15px;
+                    font-size: 1.2rem;
+                    transition: 350ms;
+          }
+
+          .N1SC {
+                    display: flex;
+                    margin: auto;
+                    text-align: center;
+                    margin: 10px;
+                    width: auto;
+                    padding: 15px;
+                    flex-direction: column;
+          }
+
+          .N1SC img {
+                    width: 25vw;
+                    height: 25vw;
+          }
+
+          .N1SC span {
+                    margin: 0px;
+                    font-size: 2rem;
+          }
+
+          .games h3 {
+                    text-align: center;
+                    color: #000000;
+                    padding: 15px;
+                    font-size: 1.2rem;
+                    transition: 350ms;
+
+          }
+
+          .GCN1 {
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    padding: 15px;
+                    margin: auto;
+                    margin: 10px;
+                    width: auto;
+                    flex-direction: column;
+          }
+
+          .GCN1 img {
+                    width: 25vw;
+                    height: 25vw;
+          }
+
+
+          .GCN1 span {
+                    font-size: 2rem;
+                    margin: 0px;
+          }
+
+          .Label {
+                    position: absolute;
+                    margin-top: -30px;
+                    left: 8px;
+                    transform: translateY(-50%);
+                    font-size: 1em;
+                    color: #CBE4DE;
+                    transition: all 100ms ease-out;
+                    pointer-events: none;
+          }
+
+          .input-box input:focus~label {
+                    margin-top: -60px;
+          }
+
+          .input-box input:valid~label {
+                    margin-top: -60px;
+          }
+
+          .contenidoWrapper {
+                    width: 80vw;
+                    height: 80vw;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          .form-box {
+                    align-items: center;
+                    justify-content: center;
+          }
+
+          .Difuminado {
+                    height: 100vh;
+                    width: 100vw;
+          }
 }
