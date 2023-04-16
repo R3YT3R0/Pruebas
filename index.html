@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="Es">
+<html lang="Es" class="html1" id="HTML">
 
 <head>
           <title>Sobre mi</title>
@@ -9,96 +9,111 @@
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-          <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
           <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2809/2809801.png" type="image/x-icon">
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body class="body1 " translate="yes" id="body">
+<body class="body1" translate="yes" id="body">
+
           <div class="adasd" id="Difuminado">
 
                     <div class="box">
                               <div class="contenidoWrapper" id="wrapper">
                                         <button class="icon-close" id="icon-close" title="Cerrar contacto">
                                                   <ion-icon name="close-outline"></ion-icon></button>
-                                        <h2>Contacto</h2>
-                                        <h3>Enviar un Mensaje</h3>
-                                        <div class="form-box Contact">
-                                                  <form action="https://formspree.io/f/mjvdojon" method="POST">
-                                                            <div class="input-box">
-                                                                      <span class="icon"><ion-icon
-                                                                                          name="person-circle-outline"></ion-icon>
-                                                                      </span>
-                                                                      <input type="text" name="Nombre" id="EmailUser"
-                                                                                required>
-                                                                      <label for="EmailUser" class="Label">
-                                                                                Nombre
-                                                                      </label>
+                                        <div class="contentWrapper">
+                                                  <h2 class="Subtitle">Contacto</h2>
+                                                  <h3 class="SubSubTitle">Enviar un Mensaje</h3>
+                                                  <div class="form-box Contact">
+                                                            <form action="https://formspree.io/f/mjvdojon" method="POST"
+                                                                      id="FormularioContacto">
+                                                                      <div class="input-box">
+                                                                                <span class="icon"><ion-icon
+                                                                                                    name="person-circle-outline"></ion-icon>
+                                                                                </span>
+                                                                                <input type="text" name="Nombre"
+                                                                                          id="EmailUser" required>
+                                                                                <label for="EmailUser" class="Label">
+                                                                                          Nombre
+                                                                                </label>
+                                                                      </div>
+
+                                                                      <div class="input-box">
+                                                                                <span class="icon"><ion-icon
+                                                                                                    name="mail-outline"></ion-icon>
+                                                                                </span>
+                                                                                <input type="text" name="Correo"
+                                                                                          id="EmailUser" required>
+                                                                                <label for="EmailUser" class="Label">
+                                                                                          Correo
+                                                                                </label>
+                                                                      </div>
+
+                                                                      <div class="input-box">
+                                                                                <span class="icon"><ion-icon
+                                                                                                    name="logo-discord"></ion-icon>
+                                                                                </span>
+                                                                                <input type="text" name="Discord"
+                                                                                          id="EmailUser" required>
+                                                                                <label for="EmailUser" class="Label">
+                                                                                          Discord
+
+                                                                                </label>
+                                                                      </div>
+                                                                      <div class="input-box">
+                                                                                <span class="icon"><ion-icon
+                                                                                                    name="document-text-outline"></ion-icon></span>
+                                                                                <input type="text" name="Mensaje"
+                                                                                          id="ContaseñaUser" required>
+                                                                                <label for="ContaseñaUser"
+                                                                                          class="Label">
+                                                                                          Mensaje
+
+                                                                                </label>
+                                                                      </div>
+
+                                                                      <div class="btn">
+                                                                                <button id="botonCancel">Eliminar
+                                                                                          todo</button>
+                                                                                <button type="submit">Enviar</button>
+
+                                                                      </div>
+                                                            </form>
+
+                                                            <div class="socialLinks">
+                                                                      <a href="https://www.instagram.com/reytero__2/"
+                                                                                target="_blank">
+                                                                                <ion-icon
+                                                                                          name="logo-instagram"></ion-icon>
+                                                                                <span>Instagram</span>
+                                                                      </a>
+                                                                      <a href="https://twitter.com/Reytero1"
+                                                                                target="_blank">
+                                                                                <ion-icon
+                                                                                          name="logo-twitter"></ion-icon>
+                                                                                <span>
+                                                                                          Twitter
+                                                                                </span>
+                                                                      </a>
+                                                                      <a href="https://www.youtube.com/channel/UCnKqkZyem54s1uvS_K-Zslg"
+                                                                                target="_blank">
+                                                                                <ion-icon
+                                                                                          name="logo-youtube"></ion-icon>
+                                                                                <span>youtube</span>
+                                                                      </a>
                                                             </div>
-
-                                                            <div class="input-box">
-                                                                      <span class="icon"><ion-icon
-                                                                                          name="mail-outline"></ion-icon>
-                                                                      </span>
-                                                                      <input type="text" name="Correo" id="EmailUser"
-                                                                                required>
-                                                                      <label for="EmailUser" class="Label">
-                                                                                Correo
-                                                                      </label>
-                                                            </div>
-
-                                                            <div class="input-box">
-                                                                      <span class="icon"><ion-icon
-                                                                                          name="logo-discord"></ion-icon>
-                                                                      </span>
-                                                                      <input type="text" name="Discord" id="EmailUser"
-                                                                                required>
-                                                                      <label for="EmailUser" class="Label">
-                                                                                Discord
-
-                                                                      </label>
-                                                            </div>
-                                                            <div class="input-box">
-                                                                      <span class="icon"><ion-icon
-                                                                                          name="document-text-outline"></ion-icon></span>
-                                                                      <input type="text" name="Mensaje"
-                                                                                id="ContaseñaUser" required>
-                                                                      <label for="ContaseñaUser" class="Label">
-                                                                                Mensaje
-
-                                                                      </label>
-                                                            </div>
-
-
-                                                            <button type="submit" class="btn">Enviar</button>
-                                                  </form>
-
-                                                  <div class="socialLinks">
-                                                            <a href="https://www.instagram.com/reytero__2/"
-                                                                      target="_blank">
-                                                                      <ion-icon name="logo-instagram"></ion-icon>
-                                                                      <span>Instagram</span>
-                                                            </a>
-                                                            <a href="https://twitter.com/Reytero1" target="_blank">
-                                                                      <ion-icon name="logo-twitter"></ion-icon>
-                                                                      <span>
-                                                                                Twitter
-                                                                      </span>
-                                                            </a>
-                                                            <a href="https://www.youtube.com/channel/UCnKqkZyem54s1uvS_K-Zslg"
-                                                                      target="_blank">
-                                                                      <ion-icon name="logo-youtube"></ion-icon>
-                                                                      <span>youtube</span>
-                                                            </a>
                                                   </div>
                                         </div>
                               </div>
                     </div>
           </div>
+
           <header>
-                    <div class="Logo_Title">
+                    <div class="Logo_Title" id="Logo">
                               <!--                               <img src="assets/Logos/logo.png"></img> -->
-                              <img src="https://raw.githubusercontent.com/R3YT3R0/Pruebas/main/assets/logos/logo.png"
-                                        alt="">
+                              <img src="assets/logos/logo2.png" alt="LogoPage" class="logo1" id="logo2">
+                              <img src="assets/logos/logo.png" alt="LogoPage" class="logo2" id="logo1">
+
                     </div>
 
                     <div class="menuLinks">
@@ -113,9 +128,7 @@
           <main>
                     <div class="Description_Image">
                               <div class="Description">
-                                        <blockquote>
-                                                  <h2>Sobre mi</h2>
-                                        </blockquote>
+                                        <h2 class="Subtitle">Sobre mi</h2>
 
                                         <p>
                                                   ¡Hola! Me llamo Reynier, tengo 15 años, soy venezolano y actualmente
@@ -133,83 +146,91 @@
                     </div>
 
                     <div class="TitleDivContentCards">
-                              <h2>Pasatiempos y Aficiones</h2>
+                              <h2 class="Subtitle">Pasatiempos</h2>
                               <p>Me gusta ver Twitch y YouTube o jugar a Minecraft y Overwatch. También veo videos para
                                         aprender "programación"</p>
                     </div>
-                    <div class="streamers">
-                              <h3>Streamers Favoritos</h3>
-                              <div class="contentStreamers1">
-                                        <a class="streamerCards N1SC numero3StreamerCard1"
-                                                  href="https://www.youtube.com/@NexxuzWorld" target="_blank">
-                                                  <img
-                                                            src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
-                                                  <br>
-                                                  <span>Nexxuz World</span>
-                                        </a>
-                                        <a class="streamerCards N1SC numero3StreamerCard1"
-                                                  href="https://www.twitch.tv/vector" target="_blank">
-                                                  <img
-                                                            src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
-                                                  <br>
-                                                  <span>Vector</span>
-                                        </a>
 
+                    <div class="cards">
+                              <div class="streamers">
+                                        <h3 class="subsubsitle">Streamers Favoritos</h3>
+                                        <div class="contentStreamers1">
+                                                  <a class="streamerCards N1SC numero3StreamerCard1"
+                                                            href="https://www.youtube.com/@NexxuzWorld" target="_blank">
+                                                            <img
+                                                                      src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
+                                                            <br>
+                                                            <span>Nexxuz</span>
+                                                  </a>
+                                                  <a class="streamerCards N1SC numero3StreamerCard1"
+                                                            href="https://www.twitch.tv/vector" target="_blank">
+                                                            <img
+                                                                      src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
+                                                            <br>
+                                                            <span>Vector</span>
+                                                  </a>
+
+                                        </div>
+                                        <div class="contentStreamers2">
+
+                                                  <a class="streamerCards N1SC numero3StreamerCard1"
+                                                            href="https://www.twitch.tv/grenheir" target="_blank">
+                                                            <img
+                                                                      src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
+                                                            <br>
+                                                            <span>Grenheir</span>
+                                                  </a>
+                                                  <a class="streamerCards N1SC numero3StreamerCard1"
+                                                            href="https://www.twitch.tv/illojuan" target="_blank">
+                                                            <img
+                                                                      src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
+                                                            <br>
+                                                            <span>illojuan</span>
+                                                  </a>
+                                        </div>
                               </div>
-                              <div class="contentStreamers2">
 
-                                        <a class="streamerCards N1SC numero3StreamerCard1"
-                                                  href="https://www.twitch.tv/grenheir" target="_blank">
-                                                  <img
-                                                            src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
-                                                  <br>
-                                                  <span>Grenheir</span>
-                                        </a>
-                                        <a class="streamerCards N1SC numero3StreamerCard1"
-                                                  href="https://www.twitch.tv/illojuan" target="_blank">
-                                                  <img
-                                                            src="assets/thumbnail/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.png">
-                                                  <br>
-                                                  <span>Illojuan</span>
-                                        </a>
+                              <div class="games">
+                                        <h3 class="subsubsitle">Juegos Favoritos</h3>
+                                        <div class="contentGames1">
+                                                  <a href="https://overwatch.blizzard.com/es-es/"
+                                                            class="gameCard GCN1 gameCards">
+                                                            <img src="assets/thumbnail/Overwatch2_Primary_DKBKGD.png">
+                                                            <br>
+                                                            <span>Overwatch</span>
+                                                  </a>
+
+                                                  <a href="https://www.minecraft.net/es-es"
+                                                            class="gameCard GCN1 gameCards">
+                                                            <img
+                                                                      src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81gRxmT7aRL._AC_UX342_.jpg">
+                                                            <br>
+                                                            <span>Minecraft</span>
+                                                  </a>
+                                        </div>
+                                        <div class="contentGames1">
+                                                  <a href="https://www.callofduty.com/es/warzone"
+                                                            class="gameCard GCN1 gameCards">
+                                                            <img
+                                                                      src="https://pbs.twimg.com/profile_images/1593663405310763009/ReIaXRSE_400x400.png">
+                                                            <br>
+                                                            <span>Warzone:2.0</span>
+                                                  </a>
+                                                  <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+                                                            class="gameCard GCN1 gameCards">
+                                                            <img
+                                                                      src="https://avatarfiles.alphacoders.com/256/256327.png">
+                                                            <br>
+                                                            <span>CS:GO</span>
+                                                  </a>
+                                        </div>
                               </div>
                     </div>
-
-                    <div class="games">
-                              <h3>Juegos Favoritos</h3>
-                              <div class="contentGames1">
-                                        <div href="" class="gameCard GCN1 gameCards">
-                                                  <img src="assets/thumbnail/Overwatch2_Primary_DKBKGD.png">
-                                                  <br>
-                                                  <span>Overwatch</span>
-                                        </div>
-
-                                        <div href="" class="gameCard GCN1 gameCards">
-                                                  <img
-                                                            src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81gRxmT7aRL._AC_UX342_.jpg">
-                                                  <br>
-                                                  <span>Minecraft</span>
-                                        </div>
-                              </div>
-                              <div class="contentGames1">
-                                        <div href="" class="gameCard GCN1 gameCards">
-                                                  <img
-                                                            src="https://pbs.twimg.com/profile_images/1593663405310763009/ReIaXRSE_400x400.png">
-                                                  <br>
-                                                  <span>Warzone 2.0</span>
-                                        </div>
-                                        <div href="" class="gameCard GCN1 gameCards">
-                                                  <img src="https://avatarfiles.alphacoders.com/256/256327.png">
-                                                  <br>
-                                                  <span>CS:GO</span>
-                                        </div>
-                              </div>
-                    </div>
-
 
           </main>
+          <i class='bx bxs-moon' id="toggle"></i>
 </body>
-
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script src="app.js"></script>
 
 </html>
