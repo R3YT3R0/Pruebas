@@ -239,9 +239,8 @@
 }
 
 html {
-          width: fit-content 100vw;
           margin: 0 auto;
-          background: #CBE4DE;
+          background: linear-gradient(#CBE4DE, #2e4f4f);
 }
 
 .logo2 {
@@ -358,7 +357,7 @@ html {
           color: #2E4F4F;
           text-decoration: none;
           margin: 0 10px;
-          font-size: 22px;
+          font-size: 20px;
           background: none;
           border-radius: 5px;
           transition: 250ms;
@@ -380,7 +379,7 @@ html {
           color: #2E4F4F;
           text-decoration: none;
           margin: 0 10px;
-          font-size: 22px;
+          font-size: 20px;
           background: none;
           border-radius: 5px;
           transition: 250ms;
@@ -479,65 +478,16 @@ html {
 
 main {
           margin: 0 auto;
+          padding: 30px 0px;
           display: flex;
           flex-direction: column;
           align-items: center;
+          margin-top: 20px;
 }
 
-.body2 .Subtitle {
-          color: #CBE4DE;
-          font-size: 36px;
-          transition: 350ms;
-          text-align: center;
-          margin: 0 auto;
-}
 
-.body2 .Subtitle:hover {
-          text-shadow: 0 0 5px #0E8388;
-          color: #0E8388;
-          letter-spacing: 2px;
-}
-
-.body2>main>.streamers>h3 {
-          font-size: 30px;
-          color: #CBE4DE;
-          padding: 20px;
-          text-align: center;
-          margin: 0 auto;
-          transition: all 250ms ease;
-}
-
-.body2>main>.games>h3 {
-          font-size: 30px;
-          color: #CBE4DE;
-          text-align: center;
-          margin: 0 auto;
-          padding: 20px;
-          transition: all 250ms ease;
-}
-
-.body2 h3:hover {
-          color: #0E8388;
-          text-shadow: 0 0 5px #0E8388;
-          letter-spacing: 2px;
-}
-
-.body2 p {
-          background: #CBE4DE;
-          font-size: 25px;
-          font-kerning: normal;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-}
-
-.body2 p:hover {
-          color: #0E8388;
-          text-shadow: 0 0 5px #0E8388;
-          letter-spacing: 2px;
-}
 
 .Description_Image {
-          font-size: 1.2em;
           border-radius: 5px;
           color: #2E4F4F;
           display: flex;
@@ -547,7 +497,7 @@ main {
           transition: 300ms;
           padding: 10px 20px;
           width: 90vw;
-          margin: 150px auto;
+          margin: 100px auto;
           height: 325px;
 }
 
@@ -560,9 +510,11 @@ main {
 
 .Description>h2 {
           text-align: center;
-          font-size: 36px;
           transition: 350ms;
           color: #000000;
+          font-weight: 500;
+          font-size: 30px;
+          height: fit-content;
           margin: 0 auto;
 }
 
@@ -572,29 +524,44 @@ main {
 
 .Description p {
           text-align: center;
-          font-size: 24px;
           color: #000000;
           text-decoration: none;
           transition: 350ms;
-          width: 420px;
-          padding: 20px;
-          padding-top: 0px;
+          width: 360px;
+          font-weight: 500;
+          font-size: 20px;
+          padding: 20px 0px;
+          height: fit-content;
+          padding-top: 2px;
 }
 
 .Description p>a {
           text-align: center;
-          font-size: 24px;
           color: #000000;
+          font-weight: 500;
+          font-size: 20px;
           text-decoration: none;
           transition: 350ms;
 }
 
 .Description_Image p:hover {
           color: #0E8388;
+          padding-top: 5px;
+          letter-spacing: -0.8px;
+
 }
 
 .Description_Image p:hover a {
+          letter-spacing: -0.8px;
           color: #0E8388;
+}
+
+.body2>main>.Description_Image>.Description>p {
+          color: #CBE4DE;
+}
+
+.body2>main>.Description_Image>.Description>p>a {
+          color: #CBE4DE;
 }
 
 picture {
@@ -629,12 +596,11 @@ picture:hover {
 }
 
 .TitleDivContentCards {
-          margin-top: 80px;
+          margin: 45px 0px;
 }
 
 .TitleDivContentCards>h2 {
           text-align: center;
-          font-size: 36px;
           transition: 350ms;
           color: #000000;
           margin: 0 auto;
@@ -646,10 +612,11 @@ picture:hover {
 
 .TitleDivContentCards>p {
           text-align: center;
-          font-size: 24px;
           color: #000000;
           padding: 15px;
           width: auto;
+          font-weight: 600;
+          font-size: 20px;
           transition: 350ms;
 }
 
@@ -658,8 +625,63 @@ picture:hover {
           text-shadow: 0 0 10 #000;
 }
 
+.Subtitle {
+          color: #000000;
+          transition: 350ms;
+          font-weight: 500;
+          font-size: 30px;
+          text-align: center;
+          margin: 0 auto;
+}
+
+.body2 .Subtitle {
+          color: #CBE4DE;
+
+}
+
+.body2 .Subtitle:hover {
+          text-shadow: 0 0 5px #0E8388;
+          color: #0E8388;
+          letter-spacing: .5px;
+}
+
+
+.body2 h3:hover {
+          color: #0E8388;
+          text-shadow: 0 0 5px #0E8388;
+          letter-spacing: .5px;
+}
+
+
+
+.body2>main>.TitleDivContentCards>p {
+          color: #CBE4DE;
+}
+
+.body2 p:hover {
+          color: #0E8388;
+          text-shadow: 0 0 5px #0E8388;
+          letter-spacing: .5px;
+}
+
 .cards {
           display: flex;
+}
+
+.body2>main>.streamers>h3 {
+          color: #CBE4DE;
+          padding: 20px;
+          text-align: center;
+          margin: 0 auto;
+          transition: all 250ms ease;
+}
+
+.body2>main>.games>h3 {
+          color: #CBE4DE;
+          text-align: center;
+          margin: 0 auto;
+          padding: 20px;
+          transition: all 250ms ease;
 }
 
 .streamers {
@@ -672,11 +694,11 @@ picture:hover {
 }
 
 .streamers>h3 {
-          font-size: 2em;
           text-align: center;
           width: fit-content;
           color: #C9E2DD;
           margin: 0 auto;
+          font-size: 28px;
           padding: 10px;
           transition: all 250ms ease;
 }
@@ -718,8 +740,9 @@ picture:hover {
 }
 
 .N1SC span {
-          font-size: 1.5em;
-          margin: 30px;
+          margin: 30px 0px;
+          font-weight: 500;
+          font-size: 22px;
           color: #CBE4DE;
 }
 
@@ -733,10 +756,10 @@ picture:hover {
 }
 
 .games>h3 {
-          font-size: 2em;
           text-align: center;
           color: #C9E2DD;
           width: fit-content;
+          font-size: 28px;
           margin: 0 auto;
           padding: 10px;
           transition: all 250ms ease;
@@ -779,10 +802,10 @@ picture:hover {
 }
 
 .GCN1 span {
-          font-size: 1.5em;
-          margin: 30px;
+          margin: 30px 0px;
+          font-weight: 500;
+          font-size: 22px;
           color: #CBE4DE;
-
 }
 
 .contentStreamers1 {
@@ -812,8 +835,8 @@ picture:hover {
 
 
 *::-webkit-scrollbar {
-          width: 16px;
-          height: 80%;
+          width: 5px;
+          height: 50%;
 }
 
 *::-webkit-scrollbar-track {
@@ -825,10 +848,10 @@ picture:hover {
 
 *::-webkit-scrollbar-thumb {
           background-color: #CBE4DE;
-          border-radius: 10px;
-          height: 80%;
-          border: 3px solid #191919;
-
+          border-bottom-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          height: 50%;
+          border: 3px solid #CBE4DE;
 }
 
 @media (max-width:1250px) {
@@ -843,10 +866,28 @@ picture:hover {
                     height: 50vh;
           }
 
+          .Label {
+                    margin-top: -40px;
+          }
+
+          .input-box input:focus~label {
+                    margin-top: -60px;
+          }
+
+
+          .input-box input:valid~label {
+                    margin-top: -60px;
+          }
+
 
           html {
                     width: fit-content;
                     justify-content: center;
+          }
+
+          main {
+                    margin-top: 215px;
+                    padding-bottom: 20px;
           }
 
           .body1>header {
@@ -858,14 +899,164 @@ picture:hover {
 
           }
 
+          .body1 header>.Logo_Title>img {
+                    width: 150px;
+          }
+
+
+          .body2 header>.Logo_Title>img {
+                    width: 150px;
+          }
+
+          .body1 header>.menuLinks a {
+                    color: #2E4F4F;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    font-size: 30px;
+                    background: none;
+                    border-radius: 5px;
+                    transition: 250ms;
+                    border: none;
+                    cursor: pointer;
+          }
+
+          .body2 header>.menuLinks a {
+                    color: #CBE4DE;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    font-size: 30px;
+                    background: none;
+                    border-radius: 5px;
+                    transition: 250ms;
+                    border: none;
+                    cursor: pointer;
+          }
+
+
+
+          .body1 header>.menuLinks button {
+                    color: #2E4F4F;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    font-size: 30px;
+                    background: none;
+                    border-radius: 5px;
+                    transition: 250ms;
+                    border: none;
+                    cursor: pointer;
+          }
+
+          .body2 header>.menuLinks button {
+                    color: #CBE4DE;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    font-size: 30px;
+                    background: none;
+                    border-radius: 5px;
+                    transition: 250ms;
+                    border: none;
+                    cursor: pointer;
+          }
+
+
           .cards {
                     flex-direction: column;
           }
 
           .Description_Image {
                     flex-direction: column;
-                    margin-bottom: 400px;
+                    margin-bottom: 410px;
+                    padding: 0;
+                    margin-top: 30px;
           }
+
+          .Description h2 {
+                    font-size: 45px;
+
+          }
+
+          .Description p {
+                    font-size: 35px;
+                    width: 80vw;
+          }
+
+          .Description p>a {
+                    font-size: 35px;
+
+          }
+
+          .TitleDivContentCards {
+                    margin-top: 125px;
+                    margin-bottom: 50px;
+          }
+
+          .TitleDivContentCards>p {
+                    text-align: center;
+                    color: #000000;
+                    padding: 5px;
+                    width: auto;
+                    font-weight: 600;
+                    font-size: 25px;
+                    transition: 350ms;
+          }
+
+          .Subtitle {
+                    font-size: 45px;
+          }
+
+          .Parrafo {
+                    font-size: 35px;
+          }
+
+          picture {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 350px;
+                    max-width: 350px;
+                    background: rgb(2, 193, 193);
+                    border-radius: 10%;
+                    padding: 0;
+                    transition: 450ms;
+                    margin: 0;
+                    z-index: 1;
+          }
+
+          picture:hover {
+                    background: turquoise;
+                    box-shadow: 0 0 10px #0E8388;
+                    animation: none 1s linear infinite;
+          }
+
+          .Description_Image>picture>img {
+                    max-width: 350px;
+                    min-width: 350px;
+                    transition: 250ms;
+                    border-radius: 10%;
+                    mix-blend-mode: multiply;
+                    filter: grayscale(100%);
+                    padding: 0;
+                    margin: 0;
+          }
+
+          .streamers {
+                    padding: 20px;
+          }
+
+          .streamers>h3 {
+                    font-size: 45px;
+                    padding: 20px;
+          }
+
+          .games {
+                    padding: 20px;
+          }
+
+          .games>h3 {
+                    font-size: 45px;
+                    padding: 20px;
+          }
+
 
           .N1SC {
                     width: auto;
@@ -873,13 +1064,51 @@ picture:hover {
           }
 
           .N1SC img {
-                    width: 30vw;
-                    height: 30vw;
+                    width: 40vw;
+                    height: 40vw;
           }
 
           .GCN1 img {
-                    width: 30vw;
-                    height: 30vw;
+                    width: 40vw;
+                    height: 40vw;
+          }
+
+          .N1SC span {
+                    margin: 30px 0px;
+                    font-weight: 500;
+                    font-size: 35px;
+                    color: #CBE4DE;
+          }
+
+          .GCN1 span {
+                    margin: 30px 0px;
+                    font-weight: 500;
+                    font-size: 35px;
+                    color: #CBE4DE;
+          }
+
+          .contentStreamers1 {
+                    margin: 10px auto;
+                    display: flex;
+                    flex-direction: column;
+          }
+
+          .contentStreamers2 {
+                    margin: 10px auto;
+                    flex-direction: column;
+                    display: flex;
+          }
+
+          .contentGames1 {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px auto;
+          }
+
+          .contentGames2 {
+                    display: flex;
+                    margin: 10px auto;
+                    flex-direction: column;
           }
 
 
