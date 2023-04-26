@@ -1,5 +1,3 @@
-var wrapper = document.querySelector(".wrapper");
-
 document.getElementById("BotonContacto").addEventListener("click", BlurOn)
 
 document.getElementById("icon-close").addEventListener("click", BlurOff);
@@ -14,6 +12,12 @@ function BlurOn() {
 function BlurOff() {
           blurR.classList.remove("Difuminado");
 }
+
+document.getElementById("botonCancel").addEventListener("click", () => {
+          let formularioContacto = document.getElementById("FormularioContacto");
+
+          formularioContacto.reset();
+})
 
 document.getElementById("toggle").addEventListener("click", () => {
           let body = document.getElementById("body");
@@ -36,10 +40,4 @@ document.getElementById("toggle").addEventListener("click", () => {
                     HTML.className = "html1"
                     logo2.className = "logo1"
           }
-})
-
-document.getElementById("botonCancel").addEventListener("click", () => {
-          let formularioContacto = document.getElementById("FormularioContacto");
-
-          formularioContacto.reset();
 })
